@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+    <h1 id = "title" style = "color: white;">Performance Enchancement and Improvement Survey</h1>
+  <p id = "description">This survey was designed to help management improve diets and targeted work activities to aid improvement of efficiency</p>
+</header>
+<main>
+  <form action = "#" id = "survey-form">
+    <label for = "name" id = "name-label"> Name</label>
+    <input type = "text" placeholder = "Enter your name" id = "name" required>
+   <label for = "email" id = "email-label">Email</label>
+    <input type = "email" placeholder = "Enter email address" id = "email" required>
+    <label for = "number" id = "number-label">Number</label>
+    <input type = "number" placeholder = "enter number" id = "number" min = "0" max = "1000000000">
+    <label for = "dropdown">First drop</label>
+    <select id = "dropdown">
+      <option value = "second" selected>Second</option>
+      <option value = "third">Third</option>
+      <option value = "forth">Forth</option>
+    </select>
+    <br>
+    <label>Gender</label>
+    <label><input type = "radio" name = "gender" value = "male">Male</label>
+    <label><input type = "radio" name = "gender" value = "female">Female</label>
+    <label><input type = "radio" name = "gender" value = "confused">Confused</label>
+    
+    <br>
+    <label>Status</label>
+    <label><input type = "radio" name = "status" value = "single">Single</label>
+    <label><input type = "radio" name = "status" value = "married">Married</label>
+    <label><input type = "radio" name = "status" value = "divorced">divorced</label>
+    <br>
+    <label>What will you like to eat</label>
+    <br>
+    <label><input type = "checkbox" name = "food" value = "egusi & pounded yam">Egusi & Pounded yam</label>
+    <label><input type = "checkbox" name = "food" value = "jollof rice & plantain">Jollof Rice & Plantain</label>
+    <label><input type = "checkbox" name = "food" value = "white rice & fish">White Rice & Fish</label>
+    <label><input type = "checkbox" name = "food" value = "jollof pasta & dried fish with meat">Jollof Pasta & Dried Fish With Meat</label>
+    <label><input type = "checkbox" name = "food" value = "fried yams dipped in eggs">Fried Yams dipped in Eggs</label>
+ <br>
+    <label>Comments or Suggestions</label>
+    <br>
+    <textarea rows = "10" column = "70" placeholder = "Enter comments here..."></textarea>
+    <br>
+    <button type = "submit" id = "submit">Submit</button>
+    </form>
+</main>
+</body>
+</html>
